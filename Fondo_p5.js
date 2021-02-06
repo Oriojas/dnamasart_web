@@ -5,8 +5,7 @@ function setup() {
   noFill();
   strokeWeight(1.2);
   ortho();
-  sphere(150);
-  bezierDetail(5);
+  sphere(140);
   detailX = createSlider(3, 20, 1);
   detailY = createSlider(3, 20, 1);
 
